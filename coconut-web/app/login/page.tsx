@@ -19,7 +19,7 @@ const page = () => {
   useEffect(() => {
     const savedUser = localStorage.getItem('username')
     if (savedUser) {
-      router.push('/chat')
+      router.push('/dm')
     }
   }, [])
 
