@@ -15,7 +15,6 @@ const page = () => {
 
   const isValid = username.length > 3
 
-  // ✅ Auto login check
   useEffect(() => {
     const savedUser = localStorage.getItem('username')
     if (savedUser) {
