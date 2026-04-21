@@ -63,7 +63,7 @@ const page = () => {
           />
 
           {touched && !isValid && username.length > 0 && (
-            <p className='text-xs p-2 bg-emerald-900 border-emerald-500 border-2 rounded-sm mt-2 text-emerald-300'>
+            <p className='text-xs p-2 bg-amber-900 border-amber-500 border-2 rounded-sm mt-2 text-amber-300'>
               Username must have more than 3 characters!
             </p>
           )}
@@ -93,7 +93,7 @@ const page = () => {
         {/* LOGIN BUTTON */}
         <Button
           onClick={handleLogin}
-          className="w-full mt-5 bg-green-600 hover:bg-green-700 disabled:opacity-50"
+          className="w-full mt-5 bg-emerald-900 border-emerald-500 border-2 rounded-sm text-white hover:bg-green-700 disabled:opacity-50"
         >
           Login
         </Button>
